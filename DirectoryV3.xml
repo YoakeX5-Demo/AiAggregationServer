@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trees>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/service/UserServerImpl.kt" title="用户服务接口实现"
+          extension="" presentableText="" tooltipTitle="" icon="" textColor="" backgroundColor=""/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/service/UserServer.kt" title="用户服务接口"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/dao/ChatHistoricalDao.kt" title="聊天历史数据"
+          extension="" presentableText="" tooltipTitle="" icon="" textColor="" backgroundColor=""/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/entity/ChatHistorical.kt" title="聊天历史表" extension=""
+          presentableText="" tooltipTitle="" icon="" textColor="" backgroundColor=""/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/controller/GptController.kt" title="" extension=""
+          presentableText="" tooltipTitle="" icon="" textColor="" backgroundColor=""/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/controller/UserController.kt" title="用户控制器接口"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/controller/UserControllerImpl.kt"
+          title="用户控制器接口实现"/>
+    <tree path="/build" title="编译文件"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/config/KaptchaConfig.kt" title="验证码配置"
+          extension="" presentableText="" tooltipTitle="" icon="" textColor="" backgroundColor=""/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/controller/LoginFailureHandler.kt"
+          title="登录失败控制器"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/controller/CaptchaException.kt"
+          title="验证码错误控制器"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/controller/LoginSuccessHandler.kt"
+          title="登录成功控制器"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/config/security/impl" title="认证逻辑实现"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/config/security/handle" title="认证过滤结果类"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/config/security/handle/CaptchaException.kt"
+          title="验证码错误"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/config/security/handle/LoginFailureHandler.kt"
+          title="登录失败"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/config/security/handle/LoginSuccessHandler.kt"
+          title="登录成功"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/config/security/filter" title="token认证流程"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/entity/User.kt" title="用户表"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/dao/UserDao.kt" title="用户表数据"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/config/SaTokenConfigure.kt" title="SaToken配置"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/exception/NotLoginException.kt" title="未登录异常"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/exception" title="异常处理类" extension=""
+          presentableText="" tooltipTitle="" icon="" textColor="" backgroundColor=""/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/service" title="服务类"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/entity" title="实体类"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/controller" title="控制器类"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/config" title="配置类"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/utils" title="工具类" extension="" presentableText=""
+          tooltipTitle="" icon="" textColor="" backgroundColor=""/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/controller/AiController.kt" title="Ai控制器接口"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/controller/AiControllerImpl.kt"
+          title="Ai控制器接口实现"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/service/AiServer.kt" title="AI服务接口" extension=""
+          presentableText="" tooltipTitle="" icon="" textColor="" backgroundColor=""/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/service/AiServerImpl.kt" title="AI服务接口实现"/>
+    <tree path="/src/main/kotlin/com/example/aggregationserver/dao" title="数据访问类"/>
+    <tree path="/src" title="源代码"/>
+    <tree path="/src/main/resources/application.properties" title="主配置"/>
+</trees>

@@ -1,0 +1,56 @@
+plugins {
+    id 'org.springframework.boot' version '3.2.1'
+    id 'io.spring.dependency-management' version '1.1.4'
+    id 'org.jetbrains.kotlin.jvm' version '1.9.21'
+    id 'org.jetbrains.kotlin.plugin.spring' version '1.9.21'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    sourceCompatibility = '21'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Kotlin
+    implementation 'org.jetbrains.kotlin:kotlin-reflect'
+    // 自动生成元数据信息
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+    // SpringBoot
+    implementation 'org.springframework.boot:spring-boot-starter'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    // Web
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    // 数据库
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    runtimeOnly 'com.mysql:mysql-connector-j'
+    // Redis
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    // Sa-Token 权限认证，在线文档：https://sa-token.cc
+    implementation 'cn.dev33:sa-token-spring-boot3-starter:1.37.0'
+    // Sa-Token 整合 Redis （使用 jackson 序列化方式）
+    implementation 'cn.dev33:sa-token-redis:1.37.0'
+    implementation 'org.apache.commons:commons-pool2'
+    // JWT
+    implementation 'io.jsonwebtoken:jjwt:0.9.1'
+    // 工具类
+    implementation 'cn.hutool:hutool-all:5.8.25'
+    // 验证码
+    implementation 'com.github.axet:kaptcha:0.0.9'
+}
+
+// tasks.withType(KotlinCompile) {
+//	kotlinOptions {
+//		freeCompilerArgs += '-Xjsr305=strict'
+//		jvmTarget = '21'
+//	}
+//}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
